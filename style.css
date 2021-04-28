@@ -11,8 +11,8 @@ body {
 .header {
    padding: 20px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   background-color: #2a607c;
-   color: #ffffff;
+   background-color: #43464a;
+   color: #43464a;
 }
 
 .header h1 {
@@ -20,9 +20,7 @@ body {
    font-size: 48px;
 }
 
-.header h1 .seo {
-   color: #d9dcd6;
-}
+
 
 .header div {
    padding-top: 15px;
@@ -42,7 +40,7 @@ body {
 }
 
 a {
-   color: #ffffff;
+   color: #75dcff;
    text-decoration: none;
 }
 
@@ -207,3 +205,33 @@ p {
 .footer h2 {
    font-size: 20px;
 }
+
+.topnav {
+   overflow: hidden;
+ }
+ 
+ .topnav a {
+   border-bottom: 3px solid transparent;
+   padding-top: 15px;
+   margin-right: 20px;
+   float: right;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+ }
+ 
+ .topnav a:hover {
+   border-bottom: 3px solid #75dcff;
+ }
+ 
+ .topnav a.active {
+   border-bottom: 3px solid #75dcff;
+ }
+
+ section {
+   float: left;
+   width: 30%;
+ }
+ aside {
+   float: right;
+   width: 63%;
+ }
