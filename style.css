@@ -178,7 +178,7 @@ aside {
   flex-direction: row;
   height: 250px;
   flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .container {
@@ -186,18 +186,71 @@ aside {
 }
 
 .projects {
+  width: 75%;
   display: flex;
-  flex-wrap: wrap;
+  margin-left: 20px;
+  flex-direction: row;
 }
 
 .projects-card {
   padding: 2%;
   flex-grow: 1;
   flex-basis: 16%;
-
-  display: flex;
 }
 
 .project-image img {
-  max-width: 100%;
+  max-width: 500px;
+  max-height: 250px;
+}
+
+.projects-image:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.project-info {
+  margin-top: auto;
+}
+
+.projects .project-card:first-child {
+  flex: 2 67%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 250px;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.flex-container a {
+  border-bottom: 3px solid transparent;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.flex-container a:hover {
+  border-bottom: 3px solid black;
+}
+
+.flex-container a.active {
+  border-bottom: 3px solid black;
+}
+
+ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
 }
