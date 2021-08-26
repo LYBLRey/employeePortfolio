@@ -14,12 +14,11 @@ Coding Bootcamp Student part-time.
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
+- [Repo Link](#repolink)
 - [Usage](#usage)
 - [Known Bugs](#knownbugs)
 - [Credits](#credits)
 - [Features](#features)
-- [Test](#test)
 
 ## Description
 
