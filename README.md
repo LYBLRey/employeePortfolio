@@ -53,7 +53,6 @@ No bugs! Just messy code to be honest.
 - https://stackoverflow.com/questions/23226888/horizontal-list-items-fit-to-100-with-even-spacing/23226961
 - https://www.gaintap.com/archives/clickable-website-phone-number-and-call-tracking-guide/
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
--
 
 ## Features
 
